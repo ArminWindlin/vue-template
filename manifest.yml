@@ -1,0 +1,9 @@
+---
+applications:
+- name: vue-template
+  memory: 128MB
+  routes:
+  - route: vue-template.scapp.io
+  instances: 1
+  env:
+    NODE_ENV: production
